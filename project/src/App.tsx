@@ -220,7 +220,7 @@ function App() {
           description: "CloudFormation template successfully deployed creating EC2 instance with associated resources. Stack shows 'CREATE_COMPLETE' status with all resources properly provisioned and no drift detected."
         },
         {
-          src: "/task3/S3 BUCKET.png",
+          src: "/task3/S3-BUCKET.png",
           title: "AWS CDK S3 Bucket Provisioning",
           description: "AWS CDK application written in TypeScript successfully deployed S3 bucket with infrastructure as code. CDK synthesis and deployment completed with CloudFormation stack creation and proper resource tagging."
         },
