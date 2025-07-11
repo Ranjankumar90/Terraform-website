@@ -170,62 +170,62 @@ function App() {
       ],
       screenshots: [
         {
-          src: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/EC2.png",
           title: "EC2 Instance - Amazon Linux 2 Deployment",
           description: "Successfully launched t2.micro EC2 instance running Amazon Linux 2 with proper security groups and network configuration. Instance shows healthy status with all system checks passed and proper IAM role configuration."
         },
         {
-          src: "https://images.pexels.com/photos/1181677/pexels-photo-1181677.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/VPC.png",
           title: "Custom VPC with Public Subnet",
           description: "Created custom VPC with CIDR block 10.0.0.0/16, public subnet configuration, and Internet Gateway attachment. Route tables properly configured for internet access with proper subnet associations."
         },
         {
-          src: "https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/LAMBDA.png",
           title: "AWS Lambda - Hello World Function",
           description: "Python-based Lambda function successfully deployed with proper IAM roles and execution permissions. Function code shows simple Hello World implementation with proper return structure and CloudWatch logging enabled."
         },
         {
-          src: "https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/S3.png",
           title: "S3 Private Bucket with Versioning",
           description: "Private S3 bucket created with versioning enabled, proper access policies, and encryption at rest. Bucket shows versioning status as 'Enabled' with proper configuration for data protection and compliance."
         },
         {
-          src: "https://images.pexels.com/photos/1181316/pexels-photo-1181316.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/VOLUME.png",
           title: "EBS Volume Attachment",
           description: "10GB EBS volume successfully attached to EC2 instance with proper mounting and file system configuration. Volume shows as 'in-use' status with gp2 volume type and optimal performance settings for the workload."
         },
         {
-          src: "https://images.pexels.com/photos/1181354/pexels-photo-1181354.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/RDS.png",
           title: "RDS MySQL Database Instance",
           description: "db.t2.micro MySQL RDS instance deployed with proper configuration, automated backups enabled, and security group rules for database access. Instance shows 'Available' status with endpoint ready for connections."
         },
         {
-          src: "https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/ATHENA.png",
           title: "Amazon Athena Database and Table",
           description: "Amazon Athena database and table created from sample S3 data with proper schema definition. Query editor shows successful table creation with data types and column definitions properly configured."
         },
         {
-          src: "https://images.pexels.com/photos/1181533/pexels-photo-1181533.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/CLOUDWATCH.png",
           title: "CloudWatch CPU Utilization Alarm",
           description: "CloudWatch alarm configured for EC2 CPU utilization threshold > 70% with proper metric configuration. Alarm shows 'OK' state with threshold settings and monitoring period properly configured for alerting."
         },
         {
-          src: "https://images.pexels.com/photos/1181605/pexels-photo-1181605.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/CLOUDTRAIL.png",
           title: "AWS CloudTrail API Monitoring",
           description: "AWS CloudTrail enabled for comprehensive API activity monitoring with S3 bucket logging. Trail shows 'Logging' status with management events captured and proper data event configuration for security monitoring."
         },
         {
-          src: "https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/CLOUDFORMATION.png",
           title: "CloudFormation EC2 Template Deployment",
           description: "CloudFormation template successfully deployed creating EC2 instance with associated resources. Stack shows 'CREATE_COMPLETE' status with all resources properly provisioned and no drift detected."
         },
         {
-          src: "https://images.pexels.com/photos/1181772/pexels-photo-1181772.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/S3 BUCKET.png",
           title: "AWS CDK S3 Bucket Provisioning",
           description: "AWS CDK application written in TypeScript successfully deployed S3 bucket with infrastructure as code. CDK synthesis and deployment completed with CloudFormation stack creation and proper resource tagging."
         },
         {
-          src: "https://images.pexels.com/photos/546819/pexels-photo-546819.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task3/ALL COMMANDS.png",
           title: "Command Line Execution Screenshots",
           description: "Terminal interface showing comprehensive command execution including 'terraform init', 'terraform plan', 'terraform apply', AWS CLI commands, and CDK deployment commands used throughout the infrastructure provisioning process."
         }
@@ -242,42 +242,42 @@ function App() {
       details: "Advanced S3 static website implementation featuring custom bucket naming with initials, static website hosting configuration, public access block settings, bucket policy management for public read access, and automated file upload with Terraform output for website endpoint URL.",
       screenshots: [
         {
-          src: "https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task4/1.png",
           title: "S3 Bucket Creation - bytewave-website-rk",
           description: "Successfully created S3 bucket named 'bytewave-website-rk' using Terraform with proper naming convention including initials. Bucket shows as created with all default settings and ready for static website hosting configuration."
         },
         {
-          src: "https://images.pexels.com/photos/1181359/pexels-photo-1181359.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task4/2.png",
           title: "Static Website Hosting Configuration",
           description: "S3 bucket configured for static website hosting with index.html as the main file. Properties tab shows static website hosting enabled with the endpoint URL generated and accessible for public viewing."
         },
         {
-          src: "https://images.pexels.com/photos/1181406/pexels-photo-1181406.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task4/3.png",
           title: "Public Access Block Configuration",
           description: "AWS S3 bucket public access block settings configured using aws_s3_bucket_public_access_block resource. All public access settings properly managed to ensure controlled access while allowing website hosting functionality."
         },
         {
-          src: "https://images.pexels.com/photos/1181472/pexels-photo-1181472.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task4/4.png",
           title: "Bucket Policy for Public Read Access",
           description: "Bucket policy attached to allow public read access specifically to index.html file. Policy JSON configuration shows proper permissions for GetObject action with Principal set to '*' for public access to website content."
         },
         {
-          src: "https://images.pexels.com/photos/1181540/pexels-photo-1181540.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task4/5.png",
           title: "Index.html File Upload",
           description: "Sample index.html file successfully uploaded to S3 bucket using AWS Console. File shows as uploaded with proper content-type settings and public read permissions applied through the bucket policy configuration."
         },
         {
-          src: "https://images.pexels.com/photos/1181610/pexels-photo-1181610.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task4/6.png",
           title: "Terraform Output - Website Endpoint URL",
           description: "Terraform output successfully displaying the static website endpoint URL. Output shows the complete S3 website URL that can be accessed publicly to view the ByteWave Solutions website hosted on AWS S3."
         },
         {
-          src: "https://images.pexels.com/photos/1181676/pexels-photo-1181676.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task4/7.png",
           title: "Live Website - ByteWave Solutions",
           description: "ByteWave Solutions static website successfully accessible through the S3 endpoint URL. Website displays properly with HTML content, styling, and all static assets loading correctly from the S3 bucket."
         },
         {
-          src: "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800",
+          src: "/task4/8.png",
           title: "Terraform Command Execution",
           description: "Terminal showing complete Terraform workflow execution: 'terraform init' for initialization, 'terraform plan' showing resource changes, and 'terraform apply' with successful deployment confirmation. All S3 resources created successfully."
         }
